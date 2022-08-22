@@ -1,0 +1,283 @@
+/* Tout ce qui est entre 991 et 768px TABLETTE */
+
+@media (max-width: 991px)  {
+
+    /* LOGO */
+    #logo {
+        width: 15%;
+        height: auto;
+        margin: auto;
+    }
+
+    /* NAVIGUATION */
+    nav {
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+    
+    /* MENU */
+   .menu {
+    display: flex;
+    width: 100%;
+    text-align: center;
+    justify-content: space-around;
+    border-top: none;
+    padding-top: 20px;
+   }
+
+   .menu a {
+    font-size: large;
+   }
+
+    .menu a:hover {
+    border-bottom: 3px solid #0065FC;
+    border-top: none;
+   }
+
+   .first {
+    width: 50%;
+    border-bottom: 2px solid #F2F2F2;
+   }
+
+   .second {
+    width: 50%;
+    border-bottom: 2px solid #F2F2F2;
+   }
+
+    /* Rechercher */
+
+
+    .recherche {
+        display: inline-block;
+        flex-wrap: nowrap;
+        margin-left: 4%;
+        width: 92%;
+        text-align: center;
+    }
+
+    .recherche h1 {
+        text-align: start;
+    }
+
+    .recherche p {
+        text-align: start;
+    }
+
+    .recherche button {
+        display: none;
+    }
+
+    .recherche span {
+        display: none;
+    }
+
+    .recherchemobile {
+        display: inline-block;
+        margin-left: -10px;
+    }
+
+    .recherchemobile i {
+        border-radius: 0px 10px 10px 0px;
+        background-color: #0065FC;
+        color: white;
+        height: 19.4px;
+    }
+
+
+
+    /* FILTRES */
+
+
+    .filtres {
+        flex-wrap: wrap;
+        margin-top: 30px;
+        margin: 5px;
+        width: 45%;
+        
+        }
+
+    .filtres-titre {
+        width: 80%;
+    }
+
+        
+    /* CONTENEUR */
+
+
+    .conteneur {
+        display: block;
+        flex-wrap: wrap;
+        align-content: center;
+        border-radius: 20px;
+        height: auto;
+        width: 100%;
+        margin-bottom: 50px;
+        flex-direction: column;
+        margin-left: 0%;
+    }
+
+
+    .card {
+    
+        margin: auto;
+        width: 80%;
+        height: 320px;
+        background-color: white;
+        margin-top: 30px;
+        border-radius: 15px 15px;
+    }
+
+    .card-titre {
+
+        font-weight: bold;
+        font-size:20px;
+        margin-bottom: -20px;
+        margin-left: 15px;
+        margin-top: -20px;
+        }
+
+    .card p {
+        margin-bottom: 30px;
+    }
+
+    .card img {
+        width: 99%;
+        height: 205px;
+        object-fit: cover;
+        border-radius: 15px 15px 0 0;
+    }
+
+
+    .plus {
+        font-weight: bold;
+        margin-top: 40px;
+        width: 280%;
+    }
+
+
+    /* POPULAIRES */
+
+    .populaires {
+        height: 100%;
+        width: 100%;
+        background-color: #F2F2F2;
+        border-radius: 20px;
+        flex-wrap: wrap;
+        display: block;
+        margin-bottom: 5%;
+        flex-direction: column;
+        margin-right: 0%;
+    }
+
+
+
+    .card2 {
+        margin: auto;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        width: 90%;
+        height: 144px;
+        background-color: white;
+        border-radius: 15px 15px;
+        flex-direction: row;
+        margin-left: 30px;
+        margin-right: 30px;
+    } 
+
+    .top {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+
+    /* ACTIVITES */
+
+    .conteneur {
+        flex-direction: column-reverse;
+    }
+
+    
+    .vieux-port {
+        border: 2px solid #F2F2F2;
+        background-color: transparent;
+        border-radius: 20px;
+        width: 45%;
+    
+    }
+    
+    .vieux-port img {
+        height: 375px;
+        width: 100%;
+        object-fit: cover;
+        border-radius: 20px 20px 0 0;
+    }
+    
+    .calanques {
+        border: 2px solid #F2F2F2;
+        background-color: transparent;
+        border-radius: 20px;
+        width: 45%;
+    }
+    
+    .calanques img {
+        height: 375px;
+        width: 100%;
+        object-fit: cover;
+        border-radius: 20px 20px 0 0;
+    }
+    
+    .pomegues-frioul {
+        width: 45%;
+    }
+    
+    
+    .pomegues-frioul img {
+        height: 150px;
+        width: 100%;
+        object-fit: cover;
+        border-radius: 20px 20px 0 0;
+    }
+    
+    
+    .dame-longchamp {
+        width: 45%;
+    }
+    
+    
+    .dame-longchamp img {
+        height: 150px;
+        width: 100%;
+        object-fit: cover;
+        border-radius: 20px 20px 0 0;
+    }
+    
+
+    /* FOOTER */
+
+    footer ul {
+        list-style: none;
+    }
+
+    footer p {
+        font-weight: bold;
+        padding-left: 40px;
+    }
+
+
+    footer {
+        display: flex;
+        flex-wrap: nowrap;
+        background-color: #F2F2F2;
+        width: 100%;
+    }
+
+    .footer {
+        width: 33%;
+    }
+
+    footer li {
+        text-align: start;
+    }
+
+
+}
