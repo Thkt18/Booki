@@ -11,4 +11,4 @@ Vous êtes chargé de créer ce prototype en intégrant la maquette en HTML et C
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Lien vers [Bookie](https://thkt18.github.io/Projet-2-Booki-Open-Classroom/)
+Lien vers [Bookie](https://thkt18.github.io/Booki//)
